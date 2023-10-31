@@ -4,6 +4,11 @@
 {% include "blog/pages/partials/_head.html" %}
 </head>
 <body>
+    {% include "blog/pages/partials/_header.html" %}    
     {% block content %}{% endblock content %}
+    {% include "blog/pages/partials/_pagination.html" %} 
+    {% include "blog/pages/partials/_footer.html" %} 
+
+    
 </body>
 </html>
